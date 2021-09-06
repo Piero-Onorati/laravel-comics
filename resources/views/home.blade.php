@@ -2,6 +2,8 @@
 @section('title', 'DC Homepage')
 @section('content')
 
-<h1>this is the Homepage</h1>
+<h2>this is the Homepage</h2>
+<div class="jumbo_home"></div>
+
     
 @endsection

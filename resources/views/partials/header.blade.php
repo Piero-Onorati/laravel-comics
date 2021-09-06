@@ -1,23 +1,26 @@
 <header>
-    <div class="navigation-menu">
+    <div class="navigation-menu container">
+        
         {{-- LOGO --}}
         <div class="logo">
-            <a href="{{route('homepage')}}">home</a><img src="" alt="">
+            <a href="{{route('homepage')}}">
+                <img src="{{asset('images/dc-logo.png')}}" alt="logo">
+            </a>
         </div>
 
         {{-- NABBAR --}}
         <nav>
             <ul>
-                <li><a href="">characters</a></li>
+                <li><a href="{{route('characterspage')}}">characters</a></li>
                 <li><a href="{{route('comicspage')}}">comics</a></li>
-                <li><a href="">movies</a></li>
-                <li><a href="">tv</a></li>
-                <li><a href="">games</a></li>
-                <li><a href="">collectibles</a></li>
-                <li><a href="">videos</a></li>
-                <li><a href="">fan</a></li>
-                <li><a href="">news</a></li>
-                <li><a href="">shop</a></li>
+                <li><a href="{{route('moviepage')}}">movies</a></li>
+                <li><a href="{{route('tvpage')}}">tv</a></li>
+                <li><a href="{{route('examplepage')}}">games</a></li>
+                <li><a href="{{route('examplepage')}}">collectibles</a></li>
+                <li><a href="{{route('examplepage')}}">videos</a></li>
+                <li><a href="{{route('examplepage')}}">fan</a></li>
+                <li><a href="{{route('examplepage')}}">news</a></li>
+                <li><a href="{{route('examplepage')}}">shop</a></li>
             </ul>
         </nav>
 
@@ -25,5 +28,6 @@
         <div class="input-box">
             <input type="text" placeholder="Search">
         </div>
+        
     </div>
 </header>

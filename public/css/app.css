@@ -1,6 +1,201 @@
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap);/*  Color palette */
+/* Text style */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.container {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+}
+header .navigation-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .navigation-menu .logo {
+  width: 70px;
+}
+header .navigation-menu .logo a img {
+  width: 100%;
+}
+header .navigation-menu nav {
+  height: 90px;
+}
+header .navigation-menu nav li {
+  display: inline-block;
+  line-height: 86px;
+  margin: 0 6px;
+}
+header .navigation-menu nav li:hover, header .navigation-menu nav li.active {
+  color: #0282f9;
+  border-bottom: 4px solid #0282f9;
+}
+header .navigation-menu nav li a {
+  display: inline-block;
+  color: #303030;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header .navigation-menu nav li a:hover, header .navigation-menu nav li a.active {
+  color: #0282f9;
+}
+
+footer .top-footer {
+  background-image: url("../../../public/images/footer-bg.jpg");
+  background-size: cover;
+}
+footer .top-footer .top-footer-container {
+  background-image: url("../../../public/images/dc-logo-bg.png");
+  background-size: 450px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding: 20px 0 50px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+footer .top-footer .top-footer-container .all-links-container {
+  display: flex;
+}
+footer .top-footer .top-footer-container .all-links-container .column {
+  margin-right: 20px;
+}
+footer .top-footer .top-footer-container .all-links-container .column li {
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+footer .top-footer .top-footer-container .all-links-container .column li:first-child {
+  text-transform: uppercase;
+  margin: 15px 0 8px 0;
+}
+footer .top-footer .top-footer-container .all-links-container .column li a {
+  text-decoration: none;
+  color: #797979;
+  font-size: 12px;
+}
+footer .bottom-footer {
+  background-color: #303030;
+}
+footer .bottom-footer .bottom-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 0;
+}
+footer .bottom-footer .bottom-footer-container .CTA {
+  border: 2px solid #0282f9;
+}
+footer .bottom-footer .bottom-footer-container .CTA h4 {
+  color: white;
+  text-transform: uppercase;
+  padding: 8px 12px;
+}
+footer .bottom-footer .bottom-footer-container .social-icons {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .bottom-footer .bottom-footer-container .social-icons h3 {
+  color: #0282f9;
+  text-transform: uppercase;
+}
+footer .bottom-footer .bottom-footer-container .social-icons img {
+  width: 30px;
+}
+
+.jumbo_home {
+  background-color: blue;
+  height: 300px;
+}
+
+.comics_page {
+  background-color: #1c1c1c;
+}
+.comics_page .jumbotron {
+  height: 320px;
+  background-image: url("../../../public/images/jumbotron.jpg");
+  background-size: cover;
+}
+.comics_page .container {
+  display: flex;
+  padding: 20px 0;
+  position: relative;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.comics_page .container .label {
+  position: absolute;
+  top: -16px;
+  left: 0px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #0282f9;
+  text-transform: uppercase;
+  padding: 6px 25px;
+  color: white;
+}
+.comics_page .container .card {
+  width: calc(100% / 6 - 20px);
+  margin: 0 10px;
+  margin-top: 50px;
+  text-align: left;
+}
+.comics_page .container .card .img-box {
+  height: 150px;
+  overflow: hidden;
+}
+.comics_page .container .card .img-box img {
+  width: 100%;
+}
+.comics_page .container .card span {
+  padding-top: 20px;
+  display: block;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.comics_page .container .button {
+  margin: 50px 0 25px 0;
+  padding: 5px 50px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: #0282f9;
+  color: white;
+}
+
+.jumbo_example {
+  background-color: lightblue;
+  height: 300px;
+}
+
+.jumbo_character {
+  background-color: cadetblue;
+  height: 300px;
+}
+
+.jumbo_movie {
+  background-color: lightcoral;
+  height: 300px;
+}
+
+.jumbo_tv {
+  background-color: coral;
+  height: 300px;
+}
