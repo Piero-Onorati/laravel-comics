@@ -1,11 +1,10 @@
-footer{
-    
+footer{  
     .top-footer{
-        background-image: url('../../../public/images/footer-bg.jpg');
+        background-image:url('../img/footer-bg.jpg') ;
         background-size: cover;
 
         .top-footer-container{
-            background-image: url('../../../public/images/dc-logo-bg.png');
+            background-image: url('../img/dc-logo-bg.png');
             background-size: 450px;
             background-repeat: no-repeat;
             background-position: right center;

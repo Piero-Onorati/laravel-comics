@@ -74,11 +74,11 @@
             <!-- All Social Icons -->
             <div class="social-icons">
                 <h3>follow us</h3>
-                <img src="{{asset('images/footer-facebook.png')}}" alt="Facebook icon">
-                <img src="{{asset('images/footer-twitter.png')}}" alt="Twitter icon">
-                <img src="{{asset('images/footer-youtube.png')}}" alt="YouTube icon">
-                <img src="{{asset('images/footer-pinterest.png')}}" alt="Pinterest icon">
-                <img src="{{asset('images/footer-periscope.png')}}" alt="Periscope icon">
+                <img src="{{asset('img/footer-facebook.png')}}" alt="Facebook icon">
+                <img src="{{asset('img/footer-twitter.png')}}" alt="Twitter icon">
+                <img src="{{asset('img/footer-youtube.png')}}" alt="YouTube icon">
+                <img src="{{asset('img/footer-pinterest.png')}}" alt="Pinterest icon">
+                <img src="{{asset('img/footer-periscope.png')}}" alt="Periscope icon">
             </div>
         </div>
     </div>
