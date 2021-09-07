@@ -29,7 +29,11 @@ footer{
                         text-decoration:none;
                         color:$light;
                         font-size: 12px;
+                            &:hover{
+                                color: $primary;
+                            }
                         }
+
                     }
                 }
             }
@@ -52,6 +56,12 @@ footer{
                     text-transform: uppercase;
                     padding: 8px 12px;
                 }
+
+                &:hover{
+                    background-color: $primary;
+                    border:2px solid $lighter;
+                    cursor: pointer;
+                }
             }
             .social-icons{
                 width: 30%;
@@ -63,8 +73,13 @@ footer{
                     text-transform: uppercase;
                 }
                 img{
-                    width:30px
+                    width:30px;
+                    &:hover{
+                        cursor: pointer;
+                        filter: brightness(0.8);
+                    }
                 }
+
             }
         }
     }

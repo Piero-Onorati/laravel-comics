@@ -97,6 +97,9 @@ footer .top-footer .top-footer-container .all-links-container .column li a {
   color: #797979;
   font-size: 12px;
 }
+footer .top-footer .top-footer-container .all-links-container .column li a:hover {
+  color: #0282f9;
+}
 footer .bottom-footer {
   background-color: #303030;
 }
@@ -114,6 +117,11 @@ footer .bottom-footer .bottom-footer-container .CTA h4 {
   text-transform: uppercase;
   padding: 8px 12px;
 }
+footer .bottom-footer .bottom-footer-container .CTA:hover {
+  background-color: #0282f9;
+  border: 2px solid white;
+  cursor: pointer;
+}
 footer .bottom-footer .bottom-footer-container .social-icons {
   width: 30%;
   display: flex;
@@ -126,6 +134,10 @@ footer .bottom-footer .bottom-footer-container .social-icons h3 {
 }
 footer .bottom-footer .bottom-footer-container .social-icons img {
   width: 30px;
+}
+footer .bottom-footer .bottom-footer-container .social-icons img:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
 }
 
 .comics_page {
@@ -173,6 +185,7 @@ footer .bottom-footer .bottom-footer-container .social-icons img {
   color: white;
   text-transform: uppercase;
   font-size: 14px;
+  text-decoration: none;
 }
 .comics_page .container .button {
   margin: 50px 0 25px 0;
@@ -183,6 +196,10 @@ footer .bottom-footer .bottom-footer-container .social-icons img {
   display: inline-block;
   background-color: #0282f9;
   color: white;
+}
+.comics_page .container .button:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
 }
 
 .jumbo_home {
