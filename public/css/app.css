@@ -201,6 +201,37 @@ footer .bottom-footer .bottom-footer-container .social-icons img:hover {
   cursor: pointer;
   filter: brightness(0.8);
 }
+.comics_page .highlighted-content {
+  padding: 50px 0;
+  background-color: #0282f9;
+}
+.comics_page .highlighted-content ul {
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.comics_page .highlighted-content ul li {
+  display: flex;
+  align-items: center;
+}
+.comics_page .highlighted-content ul li .img-box {
+  height: 50px;
+  margin-right: 8px;
+}
+.comics_page .highlighted-content ul li .img-box img {
+  height: 50px;
+}
+.comics_page .highlighted-content ul li span {
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.comics_page .highlighted-content ul li span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 
 .jumbo_home {
   background-image: url("../img/hero_home.jpg");
@@ -307,6 +338,7 @@ footer .bottom-footer .bottom-footer-container .social-icons img:hover {
   text-transform: uppercase;
 }
 .small-container .detail_info_box .adv img {
+  padding-top: 10px;
   width: 100%;
 }
 
