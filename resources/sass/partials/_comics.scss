@@ -3,7 +3,7 @@
 
     .jumbotron{
         height: 320px;
-        background-image: url('/img/jumbotron.jpg');
+        background-image: url('../img/jumbotron.jpg');
         background-size: cover;
     }
 
@@ -39,7 +39,7 @@
                     width:100%
                 }
             }
-            span{
+            .book-name{
                 padding-top: 20px;
                 display: block;
                 color:white;

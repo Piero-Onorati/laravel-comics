@@ -5,24 +5,27 @@
 
 <section class="comics_page">
 
+    {{-- Jumbotron --}}
     <div class="jumbotron"></div>
 
+    {{-- Container with all the comics --}}
     <div class="container">
 
         <!-- Label -->
         <span class="label">current series</span>
 
         <!-- Box with all the comics -->
-       
-        @foreach ($allComics as $comic)
+        @foreach ($allComics as $key => $comic)
 
             <div class="card">
+
+                <!-- IMAGE -->
                 <div class="img-box">
                     <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
                 </div>
 
-                <span>{{$comic['title']}}</span>
-        
+                <!-- TITLE/LINK -->
+                <a class="book-name" href="{{route('detailpage',['id'=>$key])}}">{{$comic['title']}}</a>
                 
             </div>
             

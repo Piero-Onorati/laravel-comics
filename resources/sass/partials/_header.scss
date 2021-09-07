@@ -5,6 +5,7 @@ header{
         display: flex;
         align-items: center;
         justify-content: space-between;
+
         .logo{
             width:70px;
             a{
@@ -13,13 +14,14 @@ header{
                 }
             }
         }
+
         nav{
             height:90px;
             
             li{
             display: inline-block;
             line-height: 86px;
-            margin: 0 6px;
+            margin: 0 8px;
             
                 &:hover,
                 &.active{
@@ -38,6 +40,14 @@ header{
                         color:$primary;
                     }
                 }
+            }
+        }
+
+        .input-box{
+            input{
+                border:none;
+                outline:none;
+                border-bottom:2px solid $primary;
             }
         }
     }
